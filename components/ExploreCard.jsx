@@ -39,7 +39,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => {
       ) : (
         <div className="absolute bottom-0 p-8 justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-[24px]">
           <div
-            className={`${styles.flexCenter} h-[40px] w-[40px] lg:w-[60px] lg:h-[60px] rounded-3xl glassmorphism mb-4`}
+            className={`${styles.flexCenter} h-[40px] w-[40px] lg:w-[60px] lg:h-[60px] rounded-3xl glassmorphism mb-4 scale-100 transition-all`}
           >
             <img
               src="/headset.svg"

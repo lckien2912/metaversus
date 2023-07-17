@@ -26,7 +26,11 @@ const Socials = ({ direction }) => (
     className={`${styles.flexCenter} gap-5 sm:gap-7 flex-${direction}`}
   >
     {SOCIALS.map(({ name, url }) => (
-      <motion.li variants={itemVariant} key={name}>
+      <motion.li
+        variants={itemVariant}
+        whileHover={{ scale: 1.1, opacity: 0.8 }}
+        key={name}
+      >
         <a href="##" className="cursor-pointer">
           <img
             src={url}

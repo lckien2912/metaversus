@@ -5,11 +5,13 @@ import { slideIn } from '@utils/motion';
 import arrow from '@public/arrow.svg';
 
 const InsightCard = ({ img, title, subtitle }) => (
-  <motion.div
+  <motion.a
     variants={slideIn('right', 'spring', 0, 0.8)}
     initial="hidden"
     whileInView="show"
-    className="flex flex-row justify-between items-center w-full "
+    whileHover={{ scale: 1.05 }}
+    href="##"
+    className="flex flex-row justify-between items-center w-full cursor-pointer"
   >
     <div className="flex flex-row lg:gap-16 gap-5">
       <div className="lg:w-[250px] lg:h-[250px] md:w-[150px] md:h-[150px] w-20 h-20 ">
@@ -35,7 +37,7 @@ const InsightCard = ({ img, title, subtitle }) => (
         className="lg:w-[48px] lg:h-[48px] w-5 h-5"
       />
     </div>
-  </motion.div>
+  </motion.a>
 );
 
 export default InsightCard;

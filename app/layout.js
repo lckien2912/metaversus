@@ -9,7 +9,7 @@ const RootLayout = ({ children }) => (
         href="https://stijndv.com/fonts/Eudoxus-Sans.css"
       />
     </head>
-    <body suppressHydrationWarning>{children}</body>
+    <body>{children}</body>
   </html>
 );
 
