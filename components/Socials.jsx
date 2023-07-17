@@ -23,7 +23,7 @@ const itemVariant = {
 const Socials = ({ direction }) => (
   <motion.ul
     variants={containerStagger}
-    className={`${styles.flexCenter} gap-5 sm:gap-7 flex-${direction}`}
+    className={`${styles.flexCenter} gap-4 sm:gap-7 flex-${direction}`}
   >
     {SOCIALS.map(({ name, url }) => (
       <motion.li

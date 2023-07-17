@@ -6,7 +6,7 @@ import styles from '@styles';
 import { slideIn, textVariant } from '@utils/motion';
 import cover from '@public/cover.png';
 import stamp from '@public/stamp.png';
-import { Socials, Section } from '@components';
+import { Section } from '@components';
 
 const Hero = () => (
   <Section sectionStyle={`${styles.yPaddings} sm:pl-16 pl-6 pr-0`}>
@@ -40,9 +40,6 @@ const Hero = () => (
             />
           </div>
         </a>
-        <div className="absolute sm:right-10 right-5 -top-28 md:-top-40 lg:-top-52">
-          <Socials direction="col" />
-        </div>
       </motion.div>
     </div>
   </Section>
