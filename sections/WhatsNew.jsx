@@ -41,6 +41,7 @@ const WhatsNew = () => (
         initial="hidden"
         whileInView="show"
         className="lg:max-w-[50%]"
+        viewport={{ once: true }}
       >
         <img src={whatsNew.src} alt="Planet" />
       </motion.div>

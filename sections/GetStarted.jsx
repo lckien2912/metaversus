@@ -14,6 +14,7 @@ const GetStarted = () => (
         variants={planetVariants('left')}
         initial="hidden"
         whileInView="show"
+        viewport={{ once: true }}
         className="lg:max-w-[50%]"
       >
         <img src={getStarted.src} alt="Planet" />

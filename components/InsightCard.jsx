@@ -10,6 +10,7 @@ const InsightCard = ({ img, title, subtitle }) => (
     initial="hidden"
     whileInView="show"
     whileHover={{ scale: 1.05 }}
+    viewport={{ once: true }}
     href="##"
     className="flex flex-row justify-between items-center w-full cursor-pointer"
   >
