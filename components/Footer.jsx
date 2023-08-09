@@ -29,7 +29,7 @@ const Footer = () => (
         <div className="py-12 flex flex-col gap-5 lg:flex-row justify-between items-center border-t-[1px] border-gray-600">
           <p className="uppercase text-[24px] font-bold">Metaversus</p>
           <p className="text-sm text-secondary-white select-none text-center">
-            Copyright © 2021 - 2022 Metaversus. All rights reserved.
+            Copyright © 2023 Metaversus. All rights reserved.
           </p>
           <Socials direction="row" />
         </div>
